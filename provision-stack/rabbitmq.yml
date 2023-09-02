@@ -33,10 +33,11 @@
         - package
 
     - apt_repository:
-        repo: deb https://dl.bintray.com/rabbitmq/debian bionic main
+        repo: deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ bionic main
         state: present
       tags:
         - package
+
 
     - name: Install Rabbit MQ
       apt:
