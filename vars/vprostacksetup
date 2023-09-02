@@ -4,3 +4,5 @@ memcache_ami: ami-07efac79022b86107
 rmq_ami: ami-07efac79022b86107
 mysql_ami: ami-07efac79022b86107
 region: "us-east-2"
+# Region Name
+region: "us-east-2"

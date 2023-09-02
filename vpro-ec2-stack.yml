@@ -196,6 +196,7 @@
       blockinfile:
         path: provision-stack/group_vars/hostsip
         block: |
+          
           web01_ip: {{ web01_out.tagged_instances[0].private_ip }}
           app01_ip: {{ app01_out.tagged_instances[0].private_ip }}
           rmq01_ip: {{ rmq01_out.tagged_instances[0].private_ip }}
